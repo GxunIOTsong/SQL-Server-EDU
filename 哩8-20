@@ -1,0 +1,3 @@
+USE teaching
+SELECT avg(score) AS 平均成绩 FROM sc
+WHERE sno = '1302001'
