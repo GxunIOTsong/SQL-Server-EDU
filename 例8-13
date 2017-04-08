@@ -1,0 +1,3 @@
+USE teaching
+SELECT sname,sno,specialty FORM student
+WHERE specialty IN('计算机'，'网络')
