@@ -1,0 +1,3 @@
+USE teaching
+SELECT * FORM student
+WHERE sname like '张'
