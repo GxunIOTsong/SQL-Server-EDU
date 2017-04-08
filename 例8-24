@@ -1,0 +1,5 @@
+USE teaching
+SELECT cno,AVG(score) AS '平均成绩',COUNT(sno) AS '选修人数'
+FROM sc
+GROUP BY cno
+WITH CUBE
