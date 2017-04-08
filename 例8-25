@@ -1,0 +1,4 @@
+USE teaching
+SELECT specialty,ssex,COUNT(*) AS '人数' FROM student
+GROUP BY specialty,ssex
+WITH ROLLUP
